@@ -230,6 +230,11 @@ i{
 .cont_foot_bot{
   padding-top: 1rem;
 }
+
+.r_foot .mac{
+font-size: 1rem;
+padding: 0.75rem;
+}
 /* #endregion Footer */
 
 /* #region Griglia con flex */
