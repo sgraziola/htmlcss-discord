@@ -186,10 +186,11 @@ article {
 /* #endregion Main */
 
 /* #region Footer */
-footer{
+footer {
   background-color: #23272A;
   color: white;
 }
+
 .cont_foot {
   border-bottom: 2px solid #39435c;
 }
@@ -198,43 +199,46 @@ footer{
   justify-content: space-between;
 }
 
-h3,h4{
+h3,
+h4 {
   color: #7087D9;
-} 
+}
 
-h3{
+h3 {
   font-size: 2.5rem;
   padding-bottom: 2rem;
 }
 
-h4{
+h4 {
   padding-bottom: 1rem;
 }
 
-.flag{
+.flag {
   width: 40px;
   vertical-align: middle;
-  
+
 }
 
-i{
+i {
   padding-top: 1rem;
   padding-right: 1rem;
   font-size: 1.75rem;
 }
-.col_f span{
+
+.col_f span {
   padding: 1rem 0;
   display: inline-block;
 }
 
-.cont_foot_bot{
+.cont_foot_bot {
   padding-top: 1rem;
 }
 
-.r_foot .mac{
-font-size: 1rem;
-padding: 0.75rem;
+.r_foot .mac {
+  font-size: 1rem;
+  padding: 0.75rem;
 }
+
 /* #endregion Footer */
 
 /* #region Griglia con flex */
