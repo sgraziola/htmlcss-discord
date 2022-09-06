@@ -23,10 +23,8 @@ header .container {
   display: flex;
 }
 
-
 body {
   font-family: 'Montserrat', sans-serif;
-
 }
 
 /* #endregion utilities */
@@ -38,13 +36,11 @@ body {
   align-items: center;
 }
 
-
 .rev {
   display: flex;
   justify-content: flex-end;
 
 }
-
 
 a {
   text-decoration: none;
@@ -96,26 +92,23 @@ h1 {
   text-align: center;
 }
 
-
-
-.mac {
+.mac,
+.disc {
   text-align: center;
-  background-color: white;
   border: none;
   border-radius: 2rem;
   padding: 1rem;
   font-size: 1.4rem;
+}
+
+.mac {
+  background-color: white;
   margin-right: 1rem;
 }
 
 .disc {
-  text-align: center;
   background-color: #23272A;
-  border: none;
-  border-radius: 2rem;
-  padding: 1rem;
   color: white;
-  font-size: 1.4rem;
 }
 
 /* #endregion Header */
@@ -216,7 +209,6 @@ h4 {
 .flag {
   width: 40px;
   vertical-align: middle;
-
 }
 
 i {
