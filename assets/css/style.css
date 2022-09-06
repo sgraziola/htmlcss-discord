@@ -1,51 +1,58 @@
 /* #region Common rules */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    width: 80%;
-    max-width: 1400px;
-    margin: auto;
-    padding: 2rem 0;
-}
-
-.row{
-    display: flex;
-}
-
-
-body{
-  font-family: 'Montserrat', sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* #endregion Common rules */
 
+/* #region utilities */
+.container {
+  width: 80%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 5rem 0;
+}
+
+header .container {
+  padding: 2rem 0;
+}
+
+.row {
+  display: flex;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* #endregion utilities */
+
 /* #region Header */
 
 .col-2 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 
-.rev{
-    display: flex;
-    justify-content: flex-end;
+.rev {
+  display: flex;
+  justify-content: flex-end;
 
 }
 
 
-a{
+a {
   text-decoration: none;
   color: white;
   padding: 0 1rem;
 }
 
-.login{
+.login {
   background-color: white;
   border: none;
   border-radius: 2rem;
@@ -53,20 +60,20 @@ a{
 }
 
 nav {
-      text-align: center;
-      padding: 0.5rem 0;
+  text-align: center;
+  padding: 0.5rem 0;
 }
 
-.sfondo{
+.sfondo {
   background-image: url(../img/jumbo.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.title{
-    margin:auto;
-    text-align: center;
-    color: white;
+.title {
+  margin: auto;
+  text-align: center;
+  color: white;
 }
 
 h1 {
@@ -77,29 +84,31 @@ h1 {
   padding-left: 0px;
 }
 
-.speaking_space{
- font-size: 1.4rem;
- line-height: 2.15rem;
- padding-top: 1.5rem;
- padding-bottom: 1rem;
+.speaking_space {
+  font-size: 1.4rem;
+  line-height: 2.15rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
 }
 
-.intestazione{
-    padding: 1.5rem 1.5rem 10rem 1.5rem;
-    text-align: center;
+.intestazione {
+  padding: 1.5rem 1.5rem 10rem 1.5rem;
+  text-align: center;
 }
 
 
 
-.mac{
+.mac {
   text-align: center;
   background-color: white;
   border: none;
   border-radius: 2rem;
   padding: 1rem;
   font-size: 1.5rem;
+  margin-right: 1rem;
 }
-.disc{
+
+.disc {
   text-align: center;
   background-color: #23272A;
   border: none;
@@ -108,91 +117,112 @@ h1 {
   color: white;
   font-size: 1.5rem;
 }
+
 /* #endregion Header */
 
 /* #region Main */
 
-.frog_stud{
+.frog_stud {
   display: flex;
   justify-content: flex-end;
-  margin: 7rem 0;
 }
 
-.necessary_space{
+.mage{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.necessary_space {
   display: flex;
   flex-wrap: wrap;
-  margin: 7rem 0;
 }
 
-h2{
+h2 {
   padding-top: 2rem;
   padding-bottom: 4rem;
-  font-size: 3.25rem;
+  font-size: 4rem;
 }
 
-.server_organize{
-  font-size: 1.4rem;
+.easy_find{
+padding-bottom: 0;
 }
+
+.server_organize {
+  font-size: 1.56rem;
+}
+
 article {
-    padding: 2rem;
+  padding: 2rem;
 }
 
-.details{
-    width: 80%;
-    max-width: 1200px;
-    margin: auto;
+.details {
+  width: 80%;
+  max-width: 1400px;
+  margin: auto;
 }
 
 
 /* #endregion Main */
 
 /* #region Footer */
-.cont_foot{
-    border-bottom: 2px solid aqua;
+.cont_foot {
+  border-bottom: 2px solid aqua;
 }
 
-.r_foot{
-    justify-content: space-between;
+.r_foot {
+  justify-content: space-between;
 }
+
 /* #endregion Footer */
 
 /* #region Griglia con flex */
 
-.col-1{
-    width: calc( (100% / 12) * 1);
+.col-1 {
+  width: calc((100% / 12) * 1);
 }
-.col-2{
-    width: calc( (100% / 12) * 2);
+
+.col-2 {
+  width: calc((100% / 12) * 2);
 }
-.col-3{
-    width: calc( (100% / 12) * 3);
+
+.col-3 {
+  width: calc((100% / 12) * 3);
 }
-.col-4{
-    width: calc( (100% / 12) * 4);
+
+.col-4 {
+  width: calc((100% / 12) * 4);
 }
-.col-5{
-    width: calc( (100% / 12) * 5);
+
+.col-5 {
+  width: calc((100% / 12) * 5);
 }
-.col-6{
-    width: calc( (100% / 12) * 6);
+
+.col-6 {
+  width: calc((100% / 12) * 6);
 }
-.col-7{
-    width: calc( (100% / 12) * 7);
+
+.col-7 {
+  width: calc((100% / 12) * 7);
 }
-.col-8{
-    width: calc( (100% / 12) * 8);
+
+.col-8 {
+  width: calc((100% / 12) * 8);
 }
-.col-9{
-    width: calc( (100% / 12) * 9);
+
+.col-9 {
+  width: calc((100% / 12) * 9);
 }
-.col-10{
-    width: calc( (100% / 12) * 10);
+
+.col-10 {
+  width: calc((100% / 12) * 10);
 }
-.col-11{
-    width: calc( (100% / 12) * 11);
+
+.col-11 {
+  width: calc((100% / 12) * 11);
 }
-.col-12{
-    width: calc( (100% / 12) * 12);
+
+.col-12 {
+  width: calc((100% / 12) * 12);
 }
 
 /* #endregion Griglia con flex */
@@ -200,65 +230,67 @@ article {
 /* #region Debug */
 
 .debug [class^="col-"] {
-    border: 1px solid;
-  }
+  border: 1px solid;
+}
 
-  .debug .col-2,
-  .debug .col-8{
-    background-color: orange;
-  }
-  
-  .debug header{
-    background-color: aqua;
-  }
+.debug .col-2,
+.debug .col-8 {
+  background-color: orange;
+}
 
-  .debug footer{
-    background-color: black;
-    color: white;
-  }
-  
-  .debug .intestazione{
-    background-color: blue;
-  }
-  .debug .title{
-    height: 300px;
-    width: 800px;
-    background-color: pink;
-  }
+.debug header {
+  background-color: aqua;
+}
 
-  .debug .col-3, 
-  .debug .col-9 {
-    height: 400px;
-  }
+.debug footer {
+  background-color: black;
+  color: white;
+}
 
-  .debug .col_f{
-    height: 600px;
-  }
+.debug .intestazione {
+  background-color: blue;
+}
 
-  .debug .col-3{
-    background-color: rosybrown;
-  }
-  
-  .debug .col-9{
-    background-color: lightblue;
-  }
-  
-  .debug .grigio{
-    background-color: gray;
-  }
+.debug .title {
+  height: 300px;
+  width: 800px;
+  background-color: pink;
+}
 
-  .debug article{
-    background-color:gray;
-  }
-  .debug .details{
-    height: 800px;
-    background-color: green;
-  }
+.debug .col-3,
+.debug .col-9 {
+  height: 400px;
+}
 
-  .debug .col-4{
-    background-color: salmon;
-    height: 600px;
-  }
+.debug .col_f {
+  height: 600px;
+}
+
+.debug .col-3 {
+  background-color: rosybrown;
+}
+
+.debug .col-9 {
+  background-color: lightblue;
+}
+
+.debug .grigio {
+  background-color: gray;
+}
+
+.debug article {
+  background-color: gray;
+}
+
+.debug .details {
+  height: 800px;
+  background-color: green;
+}
+
+.debug .col-4 {
+  background-color: salmon;
+  height: 600px;
+}
 
 
 
