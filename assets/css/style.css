@@ -207,6 +207,10 @@ h3{
   padding-bottom: 2rem;
 }
 
+h4{
+  padding-bottom: 1rem;
+}
+
 .flag{
   width: 40px;
   vertical-align: middle;
@@ -217,6 +221,14 @@ i{
   padding-top: 1rem;
   padding-right: 1rem;
   font-size: 1.75rem;
+}
+.col_f span{
+  padding: 1rem 0;
+  display: inline-block;
+}
+
+.cont_foot_bot{
+  padding-top: 1rem;
 }
 /* #endregion Footer */
 
