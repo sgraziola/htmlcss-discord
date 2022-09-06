@@ -140,7 +140,7 @@ h1 {
 h2 {
   padding-top: 2rem;
   padding-bottom: 4rem;
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 
 .easy_find{
@@ -149,10 +149,15 @@ padding-bottom: 0;
 
 .server_organize {
   font-size: 1.56rem;
+  padding-bottom: 1rem;
 }
 
+.grigio{
+  background-color: #F5F5F5;
+}
 article {
   padding: 2rem;
+  text-align: center;
 }
 
 .details {
@@ -161,7 +166,10 @@ article {
   margin: auto;
 }
 
-
+h3 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
 /* #endregion Main */
 
 /* #region Footer */
